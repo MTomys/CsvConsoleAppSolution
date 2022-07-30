@@ -14,6 +14,7 @@ namespace ConsoleAppCorrected.Interfaces
         /// </summary>
         /// <remarks>
         /// Uses a collection of <see cref="ImportedObject"/> objects to display the data
+        /// Additionally, prints a <see cref="List{string}"/> containing row numbers that failed to load
         /// </remarks>
         /// <returns>void</returns>
         /// <param name="fileToImport"> input: path to a CSV file</param>

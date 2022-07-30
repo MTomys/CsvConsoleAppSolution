@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleAppCorrected.Models
 {
     /// <summary>
-    /// Root class we will inherit from
+    /// Root class for inheriting
     /// </summary>
     public class ImportedObjectBase
     {
