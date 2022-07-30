@@ -75,5 +75,7 @@ I will group it for each class:
      their initial role and makes it really hard to change in the future - what if "ImportedObjectBaseClass" would have to become abstract? would we have
      to rename all it's occurences across the code as "ImportedObjectBaseAbstractClass" ?).
 
-	ALSO IN REGARDS TO THE WHOLE PROJECT: 
-	We are missing docs! let's make it more clear what our methods and classes do in the corrected version.
+ALSO IN REGARDS TO THE WHOLE PROJECT: 
+We are missing docs! let's make it more clear what our methods and classes do in the corrected version.
+
+
