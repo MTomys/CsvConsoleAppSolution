@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppCorrected.Models
 {
+    /// <summary>
+    /// Root class we will inherit from
+    /// </summary>
     public class ImportedObjectBase
     {
         public string Name { get; set; }

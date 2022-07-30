@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppCorrected.CsvHelperMappings
 {
+    /// <summary>
+    /// Configuration for mapping headers to properties in CSV files for <see cref="ImportedObject"/>
+    /// </summary>
     public class ImportedObjectClassMap : ClassMap<ImportedObject>
     {
         public ImportedObjectClassMap()
