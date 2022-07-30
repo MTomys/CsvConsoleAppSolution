@@ -1,5 +1,9 @@
 I hope you will like it :) 
+
+
 The list of my suggestions to the initial code can be found here and in a seperate file called "suggestions.txt"
+
+
 Below is a list of things that immediately caught my attention: 
 
 I will group it for each class:
