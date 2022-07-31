@@ -12,7 +12,11 @@ namespace ConsoleAppCorrected.Impl
         private IEnumerable<ImportedObject> _importedObjects;
         private List<string> _failedRows;
 
+        /// <summary>
+        /// Returns the List of <see cref="ImportedObject"/> loaded from CSV (a copy)
+        /// </summary>
         public IEnumerable<ImportedObject> ImportedObjects { get => new List<ImportedObject>(_importedObjects); }
+
         public List<string> FailedRows { get => new(_failedRows); }
 
         public void ImportAndPrintCsvData(string fileToImport)
@@ -30,6 +34,8 @@ namespace ConsoleAppCorrected.Impl
             // assign number of children
             importedObjects.ForEach(importedObject =>
                importedObject.NumberOfChildren = GetNumberOfChildren(importedObject, importedObjects));
+
+            _importedObjects = new List<ImportedObject>(importedObjects);
 
             // print databases details
             PrintDatabaseDetails(importedObjects);
